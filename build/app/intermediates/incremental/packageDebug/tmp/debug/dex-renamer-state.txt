@@ -1,0 +1,4 @@
+#Fri Nov 03 14:55:35 BDT 2023
+base.0=/home/bjit/StudioProjects/BjitEducationFrontEnd/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -42,6 +42,8 @@ dependencies:
 
   get_it: ^7.6.0
 
+  dots_indicator: ^2.1.1
+
   intl: ^0.18.1
   retrofit: '>=4.0.0 <5.0.0'
   flutter_hooks: ^0.18.3
@@ -69,6 +71,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/images/
+
   fonts:
     - family: Muli
       fonts:
@@ -77,3 +83,10 @@ flutter:
           weight: 700
         - asset: assets/fonts/muli/Muli-Light.ttf
           weight: 300
+    - family: Archivo
+      fonts:
+        - asset: assets/fonts/archivo/Archivo-Regular.ttf
+          style: italic
+    - family: SquadaOne
+      fonts:
+        - asset: assets/fonts/squada/SquadaOne-Regular.ttf

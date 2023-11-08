@@ -6,6 +6,8 @@ import 'package:bjit_education/injection_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import 'features/quran/presentation/pages/initial_page.dart';
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,6 +35,7 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
             title: 'Al Quran',
             theme: ThemeData(primarySwatch: Colors.purple),
-            home: const ChapterListPage()));
+            //home: const ChapterListPage()));
+            home: const InitialPage()));
   }
 }

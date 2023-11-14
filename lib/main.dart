@@ -2,6 +2,7 @@ import 'package:bjit_education/features/quran/presentation/bloc/local/local_chap
 import 'package:bjit_education/features/quran/presentation/bloc/remote/remote_quran_bloc.dart';
 import 'package:bjit_education/features/quran/presentation/bloc/remote/remote_quran_event.dart';
 import 'package:bjit_education/features/quran/presentation/pages/chapter_list_page.dart';
+import 'package:bjit_education/features/quran/presentation/pages/wish_list_page.dart';
 import 'package:bjit_education/injection_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
             title: 'Al Quran',
             theme: ThemeData(primarySwatch: Colors.purple),
             //home: const ChapterListPage()));
-            home: const InitialPage()));
+            //home: const InitialPage()));
+            home: const CourseWishList()));
   }
 }

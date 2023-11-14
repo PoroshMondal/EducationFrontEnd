@@ -60,6 +60,7 @@ dev_dependencies:
   json_serializable: ^6.3.1
   retrofit_generator: '>=5.0.0 < 6.0.0'
   flutter_lints: ^2.0.0
+  flutter_rating_bar: ^4.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -74,6 +75,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/course_list_images/
 
   fonts:
     - family: Muli

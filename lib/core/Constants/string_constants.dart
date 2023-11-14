@@ -24,8 +24,15 @@ class StringConstants {
   static const String initialImage2 = "assets/images/initial_page_image2.jpg";
   static const String initialImage3 = "assets/images/initial_page_image3.jpg";
 
+  // course related images
+  static const String courseTopRated = "assets/images/course_list_images/top_rated.jpg";
+  static const String courseBestSeller = "assets/images/course_list_images/best_sell.jpg";
+
   // font family
   static const String archivoFontFamily = 'Archivo';
   static const String squadaFontFamily = 'SquadaOne';
+
+  // currency
+  static const String bdtCurrency = "BDT";
 
 }

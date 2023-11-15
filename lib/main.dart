@@ -1,3 +1,9 @@
+import 'package:bjit_education/features/quran/presentation/bloc/local/local_chapter_bloc.dart';
+import 'package:bjit_education/features/quran/presentation/bloc/remote/remote_quran_bloc.dart';
+import 'package:bjit_education/features/quran/presentation/bloc/remote/remote_quran_event.dart';
+import 'package:bjit_education/features/quran/presentation/pages/chapter_list_page.dart';
+import 'package:bjit_education/features/quran/presentation/pages/wish_list_page.dart';
+import 'package:bjit_education/injection_container.dart';
 import 'package:bjit_education/core/utils/navigator_service.dart';
 import 'package:bjit_education/core/utils/pref_utils.dart';
 import 'package:bjit_education/localization/app_localization.dart';
@@ -8,6 +14,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+
+import 'features/quran/presentation/pages/initial_page.dart';
 
 
 var globalMessengerKey = GlobalKey<ScaffoldMessengerState>();

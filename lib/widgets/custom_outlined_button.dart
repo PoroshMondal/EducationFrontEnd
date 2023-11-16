@@ -4,8 +4,8 @@ import 'package:bjit_education/widgets/base_button.dart';
 import 'package:flutter/material.dart';
 
 class CustomOutlinedButton extends BaseButton {
-  CustomOutlinedButton({
-    Key? key,
+  const CustomOutlinedButton({super.key, 
+    //Key? key,
     this.decoration,
     this.leftIcon,
     this.rightIcon,
@@ -50,8 +50,8 @@ class CustomOutlinedButton extends BaseButton {
   }
 
   Widget get buildOutlinedButtonWidget => Container(
-        height: this.height ?? 62.v,
-        width: this.width ?? double.maxFinite,
+        height: height ?? 62.v,
+        width: width ?? double.maxFinite,
         margin: margin,
         decoration: decoration,
         child: OutlinedButton(

@@ -1,8 +1,10 @@
-import 'package:bjit_education/features/quran/presentation/ui/onboarding_page_one_screen/onboarding_page_one_screen.dart';
-import 'package:bjit_education/features/quran/presentation/ui/sign_in_page_one_screen/sign_in_page_one_screen.dart';
+import 'package:bjit_education/features/edu/presentation/ui/onboarding/initial_page.dart';
+import 'package:bjit_education/features/edu/presentation/ui/onboarding/onboarding_page_one_screen.dart';
+import 'package:bjit_education/features/edu/presentation/ui/sign_in_page_one_screen/sign_in_page_one_screen.dart';
+import 'package:bjit_education/features/edu/presentation/ui/sign_in_page_two_screen/sign_in_page_two_screen.dart';
 import 'package:flutter/material.dart';
 
-import '../features/quran/presentation/sign_in_page_two_screen/sign_in_page_two_screen.dart';
+import '../features/edu/presentation/ui/dashboard_container_screen/dashboard_container_screen.dart';
 
 class AppRoutes {
   static const String onboardingPageOneScreen = '/onboarding_page_one_screen';
@@ -62,12 +64,16 @@ class AppRoutes {
 
   static const String appNavigationScreen = '/app_navigation_screen';
 
+  static const String onboardingScreen = '/onboarding_screen';
+
   static const String initialRoute = '/initialRoute';
 
   static Map<String, WidgetBuilder> get routes => {
     onboardingPageOneScreen: OnboardingPageOneScreen.builder,
     signInPageOneScreen: SignInPageOneScreen.builder,
     signInPageTwoScreen: SignInPageTwoScreen.builder,
+    onboardingScreen: InitialPage.builder,
+    dashboardPageOneContainerScreen: DashboardPageOneContainerScreen.builder,
     /*onboardingPageTwoScreen: OnboardingPageTwoScreen.builder,
     onboardingPageThreeScreen: OnboardingPageThreeScreen.builder,
     signInPageOneScreen: SignInPageOneScreen.builder,
@@ -89,6 +95,7 @@ class AppRoutes {
     courseDetailsPageThreeScreen: CourseDetailsPageThreeScreen.builder,
     courseDetailsPageFourScreen: CourseDetailsPageFourScreen.builder,
     appNavigationScreen: AppNavigationScreen.builder,*/
-    initialRoute: OnboardingPageOneScreen.builder
+    //initialRoute: OnboardingPageOneScreen.builder
+    initialRoute: InitialPage.builder
   };
 }

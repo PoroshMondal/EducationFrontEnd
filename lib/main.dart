@@ -1,9 +1,4 @@
-import 'package:bjit_education/features/quran/presentation/bloc/local/local_chapter_bloc.dart';
-import 'package:bjit_education/features/quran/presentation/bloc/remote/remote_quran_bloc.dart';
-import 'package:bjit_education/features/quran/presentation/bloc/remote/remote_quran_event.dart';
-import 'package:bjit_education/features/quran/presentation/pages/chapter_list_page.dart';
-import 'package:bjit_education/features/quran/presentation/pages/wish_list_page.dart';
-import 'package:bjit_education/injection_container.dart';
+
 import 'package:bjit_education/core/utils/navigator_service.dart';
 import 'package:bjit_education/core/utils/pref_utils.dart';
 import 'package:bjit_education/localization/app_localization.dart';
@@ -15,9 +10,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'features/quran/presentation/pages/initial_page.dart';
-
-
 var globalMessengerKey = GlobalKey<ScaffoldMessengerState>();
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,11 +19,13 @@ void main() {
     ]),
     PrefUtils().init()
   ]).then((value) {
-    runApp(MyApp());
+    runApp(const MyApp());
   });
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
@@ -44,16 +38,16 @@ class MyApp extends StatelessWidget {
         builder: (context, state) {
           return MaterialApp(
             theme: theme,
-            title: 'khalilur_s_application1',
+            title: 'BJIT Education',
             navigatorKey: NavigatorService.navigatorKey,
             debugShowCheckedModeBanner: false,
-            localizationsDelegates: [
+            localizationsDelegates: const [
               AppLocalizationDelegate(),
               GlobalMaterialLocalizations.delegate,
               GlobalWidgetsLocalizations.delegate,
               GlobalCupertinoLocalizations.delegate,
             ],
-            supportedLocales: [
+            supportedLocales: const [
               Locale(
                 'en',
                 '',

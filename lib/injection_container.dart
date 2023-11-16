@@ -1,12 +1,8 @@
-import 'package:bjit_education/features/quran/data/data_sources/local/app_database.dart';
-import 'package:bjit_education/features/quran/data/data_sources/remote/quran_api_service.dart';
-import 'package:bjit_education/features/quran/data/repository/quran_repository_impl.dart';
-import 'package:bjit_education/features/quran/domain/repository/quran_repository.dart';
-import 'package:bjit_education/features/quran/domain/usecases/get_chapters.dart';
-import 'package:bjit_education/features/quran/domain/usecases/save_chapters.dart';
-import 'package:bjit_education/features/quran/presentation/bloc/local/local_chapter_bloc.dart';
-import 'package:bjit_education/features/quran/presentation/bloc/remote/remote_quran_bloc.dart';
-import 'package:bjit_education/features/quran/presentation/ui/sign_in_page_one_screen/bloc/sign_in_page_one_bloc.dart';
+import 'package:bjit_education/features/edu/data/data_sources/local/app_database.dart';
+import 'package:bjit_education/features/edu/domain/usecases/get_chapters.dart';
+import 'package:bjit_education/features/edu/domain/usecases/save_chapters.dart';
+import 'package:bjit_education/features/edu/presentation/bloc/local/local_chapter_bloc.dart';
+
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
 
@@ -20,10 +16,11 @@ Future<void> initializeDependencies() async {
 
   // Dio
   sl.registerSingleton<Dio>(Dio());
+/*
 
-  // Dependencies - Quran
-  sl.registerSingleton<QuranApiService>(QuranApiService(sl()));
-  sl.registerSingleton<QuranRepository>(QuranRepositoryImpl(sl(),sl()));
+  // Dependencies - edu
+  sl.registerSingleton<eduApiService>(eduApiService(sl()));
+  sl.registerSingleton<eduRepository>(eduRepositoryImpl(sl(),sl()));
 
   //usecases
    sl.registerSingleton<GetChaptersUseCase>(GetChaptersUseCase(sl()));
@@ -31,8 +28,9 @@ Future<void> initializeDependencies() async {
    sl.registerSingleton<SaveChaptersUseCase>(SaveChaptersUseCase(sl()));
 
   //Blocs
-  sl.registerFactory<RemoteQuranBloc>(() => RemoteQuranBloc(sl()));
+  sl.registerFactory<RemoteeduBloc>(() => RemoteeduBloc(sl()));
   sl.registerFactory<LocalChapterBloc>(() => LocalChapterBloc(sl()));
+*/
 
   //sl.registerFactory<SignInPageOneBloc>(() => SignInPageOneBloc(SignInPageOneState()));
 }

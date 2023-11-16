@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/theme/theme_helper.dart';
 import 'package:flutter/material.dart';
@@ -53,7 +52,7 @@ class CustomButtonStyles {
           color: appTheme.deepPurple500,
           width: 3,
         ),
-        shape: RoundedRectangleBorder(),
+        shape: const RoundedRectangleBorder(),
       );
   static ButtonStyle get outlineGray => OutlinedButton.styleFrom(
         backgroundColor: theme.colorScheme.primary,
@@ -61,7 +60,7 @@ class CustomButtonStyles {
           color: appTheme.gray10001,
           width: 1,
         ),
-        shape: RoundedRectangleBorder(),
+        shape: const RoundedRectangleBorder(),
       );
   static ButtonStyle get outlineGrayTL20 => OutlinedButton.styleFrom(
         backgroundColor: Colors.transparent,
@@ -79,7 +78,7 @@ class CustomButtonStyles {
           color: appTheme.indigo50,
           width: 1,
         ),
-        shape: RoundedRectangleBorder(),
+        shape: const RoundedRectangleBorder(),
       );
   static ButtonStyle get outlinePrimary => OutlinedButton.styleFrom(
         backgroundColor: theme.colorScheme.primary,
@@ -87,7 +86,7 @@ class CustomButtonStyles {
           color: theme.colorScheme.primary,
           width: 1,
         ),
-        shape: RoundedRectangleBorder(),
+        shape: const RoundedRectangleBorder(),
       );
   static ButtonStyle get outlinePrimary1 => OutlinedButton.styleFrom(
         backgroundColor: theme.colorScheme.onPrimary.withOpacity(1),
@@ -95,7 +94,7 @@ class CustomButtonStyles {
           color: theme.colorScheme.primary,
           width: 3,
         ),
-        shape: RoundedRectangleBorder(),
+        shape: const RoundedRectangleBorder(),
       );
   // text button style
   static ButtonStyle get none => ButtonStyle(

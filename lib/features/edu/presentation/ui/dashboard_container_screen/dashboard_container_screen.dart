@@ -1,6 +1,6 @@
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/features/edu/presentation/ui/account_page_two_page/account_page_two_page.dart';
-import 'package:bjit_education/features/edu/presentation/ui/dashboard_page/dashboard_page_one_page.dart';
+import 'package:bjit_education/features/edu/presentation/ui/dashboard_page/dashboard_page.dart';
 import 'package:bjit_education/features/edu/presentation/ui/my_learning_page/my_learning_page.dart';
 import 'package:bjit_education/features/edu/presentation/ui/wishlist_page/wishlist_page.dart';
 import 'package:bjit_education/routes/app_routes.dart';

@@ -1,6 +1,6 @@
-
-import 'package:bjit_education/features/edu/domain/entities/chapter_entity.dart';
 import 'package:equatable/equatable.dart';
+
+import '../../../../../data/domain/entities/chapter_entity.dart';
 
 abstract class LocalChaptersEvent extends Equatable {
   final ChapterEntity ? chapter;

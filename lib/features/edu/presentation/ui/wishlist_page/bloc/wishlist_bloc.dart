@@ -1,4 +1,4 @@
-import 'package:bjit_education/core/utils/image_constant.dart';
+import 'package:bjit_education/core/utils/Constants/image_constant.dart';
 import 'package:bjit_education/features/edu/presentation/ui/wishlist_page/models/wishlist_model.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';

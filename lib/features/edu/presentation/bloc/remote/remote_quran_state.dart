@@ -1,7 +1,7 @@
-
-import 'package:bjit_education/features/edu/data/models/chapter_model.dart';
 import 'package:equatable/equatable.dart';
 import 'package:dio/dio.dart';
+
+import '../../../../../data/source/remote/models/chapter_model.dart';
 
 abstract class RemoteeduState extends Equatable {
   //final List<ChapterEntity> ? chapters;

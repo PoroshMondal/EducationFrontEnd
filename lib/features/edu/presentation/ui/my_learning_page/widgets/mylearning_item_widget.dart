@@ -1,13 +1,12 @@
-import 'package:bjit_education/core/utils/image_constant.dart';
-import 'package:bjit_education/core/utils/size_utils.dart';
-import 'package:bjit_education/theme/custom_text_style.dart';
-import 'package:bjit_education/theme/theme_helper.dart';
-import 'package:bjit_education/widgets/custom_icon_button.dart';
-import 'package:bjit_education/widgets/custom_image_view.dart';
-
-import '../models/mylearning_item_model.dart';
 import 'package:flutter/material.dart';
+import 'package:bjit_education/core/utils/Constants/image_constant.dart';
+import 'package:bjit_education/core/utils/size_utils.dart';
 
+import '../../../../../../common/widgets/custom_icon_button.dart';
+import '../../../../../../common/widgets/custom_image_view.dart';
+import '../../../../../../core/utils/theme/custom_text_style.dart';
+import '../../../../../../core/utils/theme/theme_helper.dart';
+import '../models/mylearning_item_model.dart';
 
 // ignore: must_be_immutable
 class MylearningItemWidget extends StatelessWidget {

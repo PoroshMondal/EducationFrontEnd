@@ -1,20 +1,19 @@
-import 'package:bjit_education/core/utils/image_constant.dart';
+import 'package:bjit_education/core/utils/Constants/image_constant.dart';
 import 'package:bjit_education/core/utils/navigator_service.dart';
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/localization/app_localization.dart';
-import 'package:bjit_education/routes/app_routes.dart';
-import 'package:bjit_education/theme/custom_button_style.dart';
-import 'package:bjit_education/theme/custom_text_style.dart';
-import 'package:bjit_education/theme/theme_helper.dart';
-import 'package:bjit_education/widgets/custom_image_view.dart';
-import 'package:bjit_education/widgets/custom_outlined_button.dart';
+import 'package:bjit_education/app_routes/app_routes.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import 'bloc/sign_in_page_one_bloc.dart';
-import 'models/sign_in_page_one_model.dart';
 import 'package:flutter/material.dart';
 
+import '../../../../../common/widgets/custom_image_view.dart';
+import '../../../../../common/widgets/custom_outlined_button.dart';
+import 'bloc/sign_in_page_one_bloc.dart';
+import 'models/sign_in_page_one_model.dart';
+import '../../../../../core/utils/theme/custom_button_style.dart';
+import '../../../../../core/utils/theme/custom_text_style.dart';
+import '../../../../../core/utils/theme/theme_helper.dart';
 
 class SignInPageOneScreen extends StatelessWidget {
   const SignInPageOneScreen({Key? key})

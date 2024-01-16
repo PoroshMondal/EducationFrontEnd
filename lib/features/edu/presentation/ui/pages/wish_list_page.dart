@@ -1,5 +1,5 @@
-import 'package:bjit_education/core/Constants/util.dart';
 import 'package:flutter/material.dart';
+import '../../../../../core/utils/constants/util.dart';
 import 'course_widgets/course_data_wrap.dart';
 import 'course_widgets/course_image_wrap.dart';
 

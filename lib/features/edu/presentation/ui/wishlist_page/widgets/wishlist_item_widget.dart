@@ -1,12 +1,12 @@
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/localization/app_localization.dart';
-import 'package:bjit_education/theme/app_decoration.dart';
-import 'package:bjit_education/theme/custom_text_style.dart';
-import 'package:bjit_education/theme/theme_helper.dart';
-import 'package:bjit_education/widgets/custom_elevated_button.dart';
-import 'package:bjit_education/widgets/custom_image_view.dart';
-import 'package:bjit_education/widgets/custom_rating_bar.dart';
 
+import '../../../../../../common/widgets/custom_elevated_button.dart';
+import '../../../../../../common/widgets/custom_image_view.dart';
+import '../../../../../../common/widgets/custom_rating_bar.dart';
+import '../../../../../../core/utils/theme/app_decoration.dart';
+import '../../../../../../core/utils/theme/custom_text_style.dart';
+import '../../../../../../core/utils/theme/theme_helper.dart';
 import '../models/wishlist_item_model.dart';
 import 'package:flutter/material.dart';
 

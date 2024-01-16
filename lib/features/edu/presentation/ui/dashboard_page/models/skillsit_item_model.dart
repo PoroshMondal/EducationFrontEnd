@@ -1,5 +1,5 @@
 
-import 'package:bjit_education/core/utils/image_constant.dart';
+import 'package:bjit_education/core/utils/Constants/image_constant.dart';
 
 /// This class is used in the [skillsit_item_widget] screen.
 class SkillsitItemModel {

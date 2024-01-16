@@ -1,21 +1,20 @@
-import 'package:bjit_education/core/utils/image_constant.dart';
+import 'package:flutter/material.dart';
+import 'package:bjit_education/core/utils/Constants/image_constant.dart';
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/localization/app_localization.dart';
-import 'package:bjit_education/theme/app_decoration.dart';
-import 'package:bjit_education/theme/custom_text_style.dart';
-import 'package:bjit_education/theme/theme_helper.dart';
-import 'package:bjit_education/widgets/app_bar/appbar_leading_circleimage.dart';
-import 'package:bjit_education/widgets/app_bar/appbar_trailing_image.dart';
-import 'package:bjit_education/widgets/app_bar/custom_app_bar.dart';
-import 'package:bjit_education/widgets/custom_image_view.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../my_learning_page/widgets/mylearning_item_widget.dart';
 import 'bloc/my_learning_bloc.dart';
 import 'models/my_learning_model.dart';
 import 'models/mylearning_item_model.dart';
-import 'package:flutter/material.dart';
-
+import '../../../../../core/utils/theme/app_decoration.dart';
+import '../../../../../core/utils/theme/custom_text_style.dart';
+import '../../../../../core/utils/theme/theme_helper.dart';
+import '../../../../../common/widgets/app_bar/appbar_trailing_image.dart';
+import '../../../../../common/widgets/app_bar/custom_app_bar.dart';
+import '../../../../../common/widgets/custom_image_view.dart';
+import '../../../../../common/widgets/app_bar/appbar_leading_circleimage.dart';
+import '../my_learning_page/widgets/mylearning_item_widget.dart';
 
 // ignore_for_file: must_be_immutable
 class MyLearningPage extends StatelessWidget {

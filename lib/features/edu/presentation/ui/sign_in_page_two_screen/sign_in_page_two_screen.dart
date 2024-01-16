@@ -1,20 +1,21 @@
-import 'package:bjit_education/core/utils/image_constant.dart';
+import 'package:flutter/material.dart';
+import 'package:bjit_education/core/utils/Constants/image_constant.dart';
 import 'package:bjit_education/core/utils/navigator_service.dart';
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/core/utils/validation_functions.dart';
 import 'package:bjit_education/localization/app_localization.dart';
-import 'package:bjit_education/theme/app_decoration.dart';
-import 'package:bjit_education/theme/custom_button_style.dart';
-import 'package:bjit_education/theme/custom_text_style.dart';
-import 'package:bjit_education/theme/theme_helper.dart';
-import 'package:bjit_education/widgets/custom_image_view.dart';
-import 'package:bjit_education/widgets/custom_outlined_button.dart';
-import 'package:bjit_education/widgets/custom_text_form_field.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../../../../common/widgets/custom_image_view.dart';
+import '../../../../../common/widgets/custom_outlined_button.dart';
+import '../../../../../common/widgets/custom_text_form_field.dart';
 import 'bloc/sign_in_page_two_bloc.dart';
 import 'models/sign_in_page_two_model.dart';
-import 'package:flutter/material.dart';
+
+import '../../../../../core/utils/theme/custom_button_style.dart';
+import '../../../../../core/utils/theme/app_decoration.dart';
+import '../../../../../core/utils/theme/custom_text_style.dart';
+import '../../../../../core/utils/theme/theme_helper.dart';
 
 // ignore_for_file: must_be_immutable
 class SignInPageTwoScreen extends StatelessWidget {

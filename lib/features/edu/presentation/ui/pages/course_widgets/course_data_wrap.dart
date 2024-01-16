@@ -1,6 +1,6 @@
-import 'package:bjit_education/core/Constants/util.dart';
 import 'package:flutter/material.dart';
-import 'rating_bar.dart';
+import '../../../../../../common/widgets/custom_rating_bar.dart';
+import '../../../../../../core/utils/constants/util.dart';
 
 //ignore: must_be_immutable
 class CourseDataWrap extends StatelessWidget {
@@ -29,7 +29,8 @@ class CourseDataWrap extends StatelessWidget {
                 children: [
                   Padding(padding: const EdgeInsets.all(2), child: Text("${Util.myListItems[index]['rating']}"),),
                   Padding(padding: const EdgeInsets.all(2),
-                    child: CustomRatingBar(double.parse(Util.myListItems[index]['rating']!)),
+                    //child: CustomRatingBar(double.parse(Util.myListItems[index]['rating']!)),
+                    child: CustomRatingBar(),
                   ),
                   Padding(padding: const EdgeInsets.all(1),child: Text("(${Util.myListItems[index]['other_rat']})"),)
                 ],

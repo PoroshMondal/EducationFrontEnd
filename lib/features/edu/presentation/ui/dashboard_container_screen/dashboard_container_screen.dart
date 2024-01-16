@@ -1,15 +1,15 @@
+import 'package:flutter/material.dart';
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/features/edu/presentation/ui/account_page_two_page/account_page_two_page.dart';
 import 'package:bjit_education/features/edu/presentation/ui/dashboard_page/dashboard_page.dart';
 import 'package:bjit_education/features/edu/presentation/ui/my_learning_page/my_learning_page.dart';
 import 'package:bjit_education/features/edu/presentation/ui/wishlist_page/wishlist_page.dart';
-import 'package:bjit_education/routes/app_routes.dart';
-import 'package:bjit_education/widgets/custom_bottom_bar.dart';
+import 'package:bjit_education/app_routes/app_routes.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../../../../common/widgets/custom_bottom_bar.dart';
 import 'bloc/dashboard_page_one_container_bloc.dart';
 import 'models/dashboard_container_model.dart';
-import 'package:flutter/material.dart';
 
 
 // ignore_for_file: must_be_immutable

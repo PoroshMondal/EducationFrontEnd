@@ -1,28 +1,25 @@
-import 'package:bjit_education/core/utils/image_constant.dart';
-import 'package:bjit_education/core/utils/navigator_service.dart';
+import 'package:flutter/material.dart';
+import 'package:bjit_education/core/utils/Constants/image_constant.dart';
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/localization/app_localization.dart';
-import 'package:bjit_education/routes/app_routes.dart';
-import 'package:bjit_education/theme/custom_text_style.dart';
-import 'package:bjit_education/theme/theme_helper.dart';
-import 'package:bjit_education/widgets/custom_image_view.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
+import '../../../../../common/widgets/custom_image_view.dart';
+import '../../../../../core/utils/theme/custom_text_style.dart';
+import '../../../../../core/utils/theme/theme_helper.dart';
 import 'bloc/onboarding_page_one_bloc.dart';
-import 'models/onboarding_page_one_model.dart';
-import 'package:flutter/material.dart';
 
 class OnboardingPageOneScreen extends StatelessWidget {
   const OnboardingPageOneScreen({Key? key}) : super(key: key);
 
-  static Widget builder(BuildContext context) {
+  /*static Widget builder(BuildContext context) {
     return BlocProvider<OnboardingPageOneBloc>(
         create: (context) => OnboardingPageOneBloc(OnboardingPageOneState(
             onboardingPageOneModelObj: const OnboardingPageOneModel()))
           ..add(OnboardingPageOneInitialEvent()),
         child: const OnboardingPageOneScreen());
-  }
+  }*/
 
   @override
   Widget build(BuildContext context) {
@@ -105,10 +102,11 @@ class OnboardingPageOneScreen extends StatelessWidget {
             child: GestureDetector(
               onTap: () {
                 //use bloc provider
-                NavigatorService.popAndPushNamed(
+                /*NavigatorService.popAndPushNamed(
                   //AppRoutes.dashboardPageOneContainerScreen,
                     AppRoutes.signInPageOneScreen
-                );
+                );*/
+                Navigator.of(context).pushNamed('/landing_page');
               },
               child: const Text(
                 "SIGN IN",

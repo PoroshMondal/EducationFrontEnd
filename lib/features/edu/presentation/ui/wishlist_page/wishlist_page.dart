@@ -1,17 +1,17 @@
-import 'package:bjit_education/core/utils/image_constant.dart';
+import 'package:flutter/material.dart';
+import 'package:bjit_education/core/utils/Constants/image_constant.dart';
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/localization/app_localization.dart';
-import 'package:bjit_education/theme/custom_text_style.dart';
-import 'package:bjit_education/widgets/app_bar/appbar_leading_circleimage.dart';
-import 'package:bjit_education/widgets/app_bar/appbar_trailing_image.dart';
-import 'package:bjit_education/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../wishlist_page/widgets/wishlist_item_widget.dart';
+import '../../../../../common/widgets/app_bar/appbar_leading_circleimage.dart';
+import '../../../../../common/widgets/app_bar/appbar_trailing_image.dart';
+import '../../../../../common/widgets/app_bar/custom_app_bar.dart';
 import 'bloc/wishlist_bloc.dart';
 import 'models/wishlist_item_model.dart';
 import 'models/wishlist_model.dart';
-import 'package:flutter/material.dart';
+import '../wishlist_page/widgets/wishlist_item_widget.dart';
+import '../../../../../core/utils/theme/custom_text_style.dart';
 
 
 // ignore_for_file: must_be_immutable

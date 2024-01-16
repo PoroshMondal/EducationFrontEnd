@@ -1,26 +1,27 @@
-import 'package:bjit_education/core/utils/image_constant.dart';
+import 'package:flutter/material.dart';
+import 'package:bjit_education/core/utils/Constants/image_constant.dart';
 import 'package:bjit_education/core/utils/size_utils.dart';
 import 'package:bjit_education/features/edu/presentation/ui/dashboard_page/widgets/dashboardpageone_item_widget.dart';
 import 'package:bjit_education/features/edu/presentation/ui/dashboard_page/widgets/skillsit_item_widget.dart';
 import 'package:bjit_education/localization/app_localization.dart';
-import 'package:bjit_education/theme/app_decoration.dart';
-import 'package:bjit_education/theme/custom_button_style.dart';
-import 'package:bjit_education/theme/custom_text_style.dart';
-import 'package:bjit_education/theme/theme_helper.dart';
-import 'package:bjit_education/widgets/app_bar/appbar_leading_circleimage.dart';
-import 'package:bjit_education/widgets/app_bar/appbar_trailing_image.dart';
-import 'package:bjit_education/widgets/app_bar/custom_app_bar.dart';
-import 'package:bjit_education/widgets/custom_elevated_button.dart';
-import 'package:bjit_education/widgets/custom_image_view.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+import 'package:carousel_slider/carousel_slider.dart';
 
 import 'bloc/dashboard_page_one_bloc.dart';
 import 'models/dashboard_page_one_model.dart';
 import 'models/dashboardpageone_item_model.dart';
 import 'models/skillsit_item_model.dart';
-import 'package:flutter/material.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+
+import '../../../../../core/utils/theme/app_decoration.dart';
+import '../../../../../core/utils/theme/custom_text_style.dart';
+import '../../../../../core/utils/theme/theme_helper.dart';
+import '../../../../../common/widgets/app_bar/appbar_trailing_image.dart';
+import '../../../../../common/widgets/app_bar/custom_app_bar.dart';
+import '../../../../../common/widgets/custom_image_view.dart';
+import '../../../../../common/widgets/app_bar/appbar_leading_circleimage.dart';
+import '../../../../../common/widgets/custom_elevated_button.dart';
+import '../../../../../core/utils/theme/custom_button_style.dart';
 
 // ignore_for_file: must_be_immutable
 class DashboardPageOnePage extends StatelessWidget {

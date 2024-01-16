@@ -1,5 +1,6 @@
-import 'package:bjit_education/core/Constants/util.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../../../core/utils/constants/util.dart';
 
 
 //ignore: must_be_immutable

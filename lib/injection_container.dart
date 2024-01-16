@@ -1,10 +1,9 @@
-import 'package:bjit_education/features/edu/data/data_sources/local/app_database.dart';
-import 'package:bjit_education/features/edu/domain/usecases/get_chapters.dart';
-import 'package:bjit_education/features/edu/domain/usecases/save_chapters.dart';
 import 'package:bjit_education/features/edu/presentation/bloc/local/local_chapter_bloc.dart';
 
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
+
+import 'data/source/local/app_database.dart';
 
 
 final sl = GetIt.instance;

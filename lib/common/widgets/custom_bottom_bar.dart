@@ -1,5 +1,5 @@
 import 'package:bjit_education/core/utils/Constants/image_constant.dart';
-import 'package:bjit_education/core/utils/size_utils.dart';
+import 'package:bjit_education/core/utils/device/size_utils.dart';
 import 'package:bjit_education/localization/app_localization.dart';
 import 'package:flutter/material.dart';
 

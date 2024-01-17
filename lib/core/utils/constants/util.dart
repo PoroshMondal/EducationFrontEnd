@@ -4,6 +4,7 @@ import 'package:intl/intl.dart';
 import 'string_constants.dart';
 
 /*
+* Date 15/01/2024
 * this class will be removed later
 * */
 class Util {

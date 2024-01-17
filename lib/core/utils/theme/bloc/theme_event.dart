@@ -5,7 +5,7 @@ abstract class ThemeEvent extends Equatable {}
 
 class ThemeChangeEvent extends ThemeEvent {
   ThemeChangeEvent({required this.themeType}) : super() {
-    PrefUtils().setThemeData(themeType);
+    PrefStorage().setThemeData(themeType);
   }
 
   final String themeType;

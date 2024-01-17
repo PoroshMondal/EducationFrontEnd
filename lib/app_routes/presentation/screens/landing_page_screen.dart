@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../features/edu/presentation/ui/dashboard_page/dashboard_page.dart';
+import '../../../../features/education/presentation/screens/dashboard_page/dashboard_page.dart';
 import '../../../core/utils/constants/string_constants.dart';
 import '../../business_logic/route_cubit.dart';
 

@@ -14,6 +14,18 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "ansicolor",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/ansicolor-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "archive",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/archive-3.4.10",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "args",
       "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.4.2",
       "packageUri": "lib/",
@@ -164,6 +176,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "csslib",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/csslib-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.6",
       "packageUri": "lib/",
@@ -296,6 +314,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "flutter_native_splash",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_native_splash-2.3.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "flutter_plugin_android_lifecycle",
       "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17",
       "packageUri": "lib/",
@@ -350,10 +374,16 @@
       "languageVersion": "2.18"
     },
     {
-      "name": "http",
-      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/http-0.13.6",
+      "name": "html",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/html-0.15.4",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "http_multi_server",
@@ -366,6 +396,18 @@
       "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "iconsax",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/iconsax-0.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "image",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/image-4.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
     },
     {
       "name": "image_picker",
@@ -456,6 +498,12 @@
       "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/lists-1.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "logger",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/logger-2.0.2+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "logging",
@@ -582,6 +630,12 @@
       "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.6",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "pointycastle",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/pointycastle-3.7.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "pool",
@@ -818,6 +872,60 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "universal_io",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/universal_io-2.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "url_launcher",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher-6.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "url_launcher_android",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "url_launcher_ios",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_ios-6.2.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "url_launcher_linux",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_linux-3.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "url_launcher_macos",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_macos-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "url_launcher_platform_interface",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_platform_interface-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "url_launcher_web",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_web-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "url_launcher_windows",
+      "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_windows-3.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "uuid",
       "rootUri": "file:///C:/Users/BJIT/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.1.0",
       "packageUri": "lib/",
@@ -878,7 +986,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2024-01-16T03:39:30.341579Z",
+  "generated": "2024-01-16T09:40:46.299746Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }

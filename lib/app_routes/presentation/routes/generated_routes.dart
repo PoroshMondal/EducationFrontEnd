@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../features/edu/presentation/ui/onboarding/onboarding_page_one_screen.dart';
+import '../../../../features/education/presentation/screens/onboarding/onboarding_page_one_screen.dart';
 import '../screens/landing_page_screen.dart';
 
 class RouteGenerator {

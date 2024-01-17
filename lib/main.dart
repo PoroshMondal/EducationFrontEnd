@@ -1,5 +1,5 @@
 import 'package:bjit_education/EducationApp.dart';
-import 'package:bjit_education/core/utils/pref_utils.dart';
+import 'package:bjit_education/core/utils/local_storage/pref_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -10,7 +10,7 @@ void main() {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
     ]),
-    PrefUtils().init()
+    PrefStorage().init()
   ]).then((value) {
     runApp(EducationApp());
   });

@@ -2,6 +2,7 @@
 class StringConstants {
   StringConstants._();
 
+  // -- OnBoarding Texts
   static const String initialPage1Text1 = "Watch Video Courses";
   static const String initialPage1Text2 = "From cooking to coding and";
   static const String initialPage1Text3 = "Watch Video Courses";
@@ -39,5 +40,9 @@ class StringConstants {
   static const String myLearning = "My Learning";
   static const String wishlist = "Wishlist";
   static const String account = "Account";
+
+  // Date Format
+  static const String date_dd_mm_yyyy = 'dd/MM/yyyy';
+  static const String date_dd_mmm_yyyy = 'dd-MMM-yyyy';
 
 }

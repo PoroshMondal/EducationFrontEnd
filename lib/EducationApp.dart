@@ -1,4 +1,4 @@
-import 'package:bjit_education/features/edu/presentation/ui/onboarding/bloc/onboarding_page_one_bloc.dart';
+import 'package:bjit_education/features/education/presentation/screens/onboarding/bloc/onboarding_page_one_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -6,12 +6,12 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'app_routes/business_logic/route_cubit.dart';
 import 'app_routes/presentation/routes/generated_routes.dart';
 import 'core/utils/navigator_service.dart';
-import 'core/utils/pref_utils.dart';
+import 'core/utils/local_storage/pref_storage.dart';
 import 'core/utils/theme/bloc/theme_bloc.dart';
 import 'core/utils/theme/theme_helper.dart';
-import 'features/edu/presentation/ui/dashboard_page/bloc/dashboard_page_one_bloc.dart';
-import 'features/edu/presentation/ui/dashboard_page/models/dashboard_page_one_model.dart';
-import 'features/edu/presentation/ui/onboarding/models/onboarding_page_one_model.dart';
+import 'features/education/presentation/screens/dashboard_page/bloc/dashboard_page_one_bloc.dart';
+import 'features/education/presentation/screens/dashboard_page/models/dashboard_page_one_model.dart';
+import 'features/education/presentation/screens/onboarding/models/onboarding_page_one_model.dart';
 import 'localization/app_localization.dart';
 
 class EducationApp extends StatelessWidget {
@@ -26,7 +26,7 @@ class EducationApp extends StatelessWidget {
           BlocProvider(
               create: (context) => ThemeBloc(
                     ThemeState(
-                      themeType: PrefUtils().getThemeData(),
+                      themeType: PrefStorage().getThemeData(),
                     ),
                   )
           ),

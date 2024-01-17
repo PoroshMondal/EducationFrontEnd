@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bjit_education/core/utils/size_utils.dart';
+import 'package:bjit_education/core/utils/device/size_utils.dart';
 
 import 'theme_helper.dart';
 

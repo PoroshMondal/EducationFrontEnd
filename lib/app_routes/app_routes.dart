@@ -1,9 +1,9 @@
-import 'package:bjit_education/features/edu/presentation/ui/onboarding/onboarding_page_one_screen.dart';
-import 'package:bjit_education/features/edu/presentation/ui/sign_in_page_one_screen/sign_in_page_one_screen.dart';
-import 'package:bjit_education/features/edu/presentation/ui/sign_in_page_two_screen/sign_in_page_two_screen.dart';
+import 'package:bjit_education/features/education/presentation/screens/onboarding/onboarding_page_one_screen.dart';
+import 'package:bjit_education/features/education/presentation/screens/sign_in_page_one_screen/sign_in_page_one_screen.dart';
+import 'package:bjit_education/features/education/presentation/screens/sign_in_page_two_screen/sign_in_page_two_screen.dart';
 import 'package:flutter/material.dart';
 
-import '../features/edu/presentation/ui/dashboard_container_screen/dashboard_container_screen.dart';
+import '../features/education/presentation/screens/dashboard_container_screen/dashboard_container_screen.dart';
 
 /*
 * Comment Date: 05/01/2024

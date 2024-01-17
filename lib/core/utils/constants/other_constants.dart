@@ -1,5 +1,11 @@
 import 'string_constants.dart';
 
+/*
+* Date 16/01/2024
+* This class may not be needed
+* after implement the onBoarding feature
+* */
+
 class OtherConstants {
   OtherConstants._();
 

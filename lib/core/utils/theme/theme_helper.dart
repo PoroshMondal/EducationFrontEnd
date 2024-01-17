@@ -1,12 +1,12 @@
-import 'package:bjit_education/core/utils/pref_utils.dart';
-import 'package:bjit_education/core/utils/size_utils.dart';
+import 'package:bjit_education/core/utils/local_storage/pref_storage.dart';
+import 'package:bjit_education/core/utils/device/size_utils.dart';
 import 'package:flutter/material.dart';
 
 
 /// Helper class for managing themes and colors.
 class ThemeHelper {
   // The current app theme
-  final _appTheme = PrefUtils().getThemeData();
+  final _appTheme = PrefStorage().getThemeData();
 
 // A map of custom color themes supported by the app
   final Map<String, PrimaryColors> _supportedCustomColor = {

@@ -1,4 +1,4 @@
-import 'package:bjit_education/features/edu/presentation/bloc/local/local_chapter_bloc.dart';
+import 'package:bjit_education/features/education/presentation/bloc/local/local_chapter_bloc.dart';
 
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
